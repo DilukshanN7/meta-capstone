@@ -42,7 +42,7 @@ a {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(240, 240, 0);
+    color: rgb(226, 226, 0);
     line-height: 10px;
 }
 
@@ -179,6 +179,20 @@ div > h5 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.realfooter {
+    height: 500px;
+    width: 100%;
+    background-color: #495e57;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.footerlogo {
+    place-self: center;
 }

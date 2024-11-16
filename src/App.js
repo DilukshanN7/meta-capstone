@@ -155,6 +155,11 @@ function App() {
           </div>
         </div>
       </div>
+      <div className='realfooter'>
+        <div className='footerlogo'>
+          <img src='floho.png'></img>
+        </div>
+      </div>
     </div>
   );
 }
