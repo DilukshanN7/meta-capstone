@@ -24,7 +24,7 @@ function App() {
           </a>
         </div>
         <div className='right'>
-          <img src='image.png' height={420} width={431}></img>
+          <img src='Image.png' height={420} width={431}></img>
         </div>
       </div>
       <div className='second'>
@@ -110,7 +110,7 @@ function App() {
             <h4>Review Body</h4>
             <div className='reviewer'>
               <div>
-                <img className='iconperson' src='shape.png' height={50} width={50}></img>
+                <img className='iconperson' src='Shape.png' height={50} width={50}></img>
               </div>
               <div>
                 <h5>Reviewer Name</h5>
@@ -158,6 +158,33 @@ function App() {
       <div className='realfooter'>
         <div className='footerlogo'>
           <img src='floho.png'></img>
+        </div>
+        <div className='footernav'>
+          <nav>
+            <a href='#'>Home</a>
+            <a href='#'>About</a>
+            <a href='#'>Menu</a>
+            <a href='#'>Order Online</a>
+            <a href='#'>Reservation</a>
+          </nav>
+        </div>
+        <div className='footernav'>
+          <nav>
+            <a href='#'>Privacy Policy</a>
+            <a href='#'>Online Shopping Policy</a>
+            <a href='#'>Food Policy</a>
+            <a href='#'>Terms & Condition</a>
+            <a href='#'>FAQs</a>
+          </nav>
+        </div>
+        <div className='footernav'>
+          <nav>
+            <a href='#'>Food Courses</a>
+            <a href='#'>Our Partners</a>
+            <a href='#'>Map in Google Maps</a>
+            <a href='#'>Food Making Process</a>
+            <a href='#'>Our Story</a>
+          </nav>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 body {
     font-size: larger;
+    overflow-x: hidden;
 }
 
 .header {
@@ -191,8 +192,21 @@ div > h5 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 200px;
     padding-right: 200px;
+    box-sizing: border-box;
 }
 
-.footerlogo {
+.footerlogo, .footernav {
     place-self: center;
+}
+
+.footernav > nav > a {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.footernav > nav {
+    display: flex;
+    flex-direction: column;
 }
