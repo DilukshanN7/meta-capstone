@@ -27,6 +27,19 @@ function App() {
           <img src='image.png' height={420} width={431}></img>
         </div>
       </div>
+      <div className='second'>
+        <div className='top'>
+          <h1 className='h12'>This week's specials!</h1>
+          <a className='orderbutton' href=''>
+            <button>Reserve a Table</button>
+          </a>
+        </div>
+        <div className='third'>
+          <div className='card'></div>
+          <div className='card'></div>
+          <div className='card'></div>
+        </div>
+      </div>
     </div>
   );
 }

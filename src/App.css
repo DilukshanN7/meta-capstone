@@ -68,3 +68,32 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+.top {
+    display: flex;
+}
+
+.h12 {
+    color: black;
+}
+
+.second {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    width: 950px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
