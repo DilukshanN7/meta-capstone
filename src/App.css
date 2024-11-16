@@ -91,9 +91,94 @@ button:hover {
     width: 950px;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .third {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+}
+
+.card {
+    height: 420px;
+    width: 300px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.card > p {
+    width: 240px;
+    padding-left: 20px;
+}
+
+.sub {
+    font-size: large;
+}
+
+.title, .footer {
+    font-weight: bold;
+}
+
+.fourth {
+    height: 800px;
+    width: 100%;
+    background-color: #495e57;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewcard {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.fourthh1 {
+    color: white;
+    padding-bottom: 80px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.iconperson {
+    border-radius: 200px;
+}
+
+.reviewer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 50px;
+    align-items: center;
+}
+
+div > h5 {
+    margin: 0px;
+}
+
+.fifthinside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth {
+    height: 550px;
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
 }
