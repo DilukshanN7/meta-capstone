@@ -1,22 +1,70 @@
+body {
+    font-size: larger;
+}
+
 .header {
     height: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
-img {
+.logo {
     padding-right: 100px;
 }
 
 a {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: black;
     text-decoration: none;
 }
 
 .hero {
-    
+    height: 400px;
+    width: 100%;
+    background-color: #495e57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    color: white;
+}
+
+.right {
+    transform: translateY(50px);
+    padding-left: 120px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(240, 240, 0);
+    line-height: 10px;
+}
+
+p {
+    width: 400px;
+}
+
+button {
+    background-color: rgb(240, 240, 0);
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+    border: none;
+}
+
+.reservebutton {
+    padding: 0px;
+}
+
+.pfirst {
+    padding-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
 }

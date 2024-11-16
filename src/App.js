@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className='header'>
-        <img src='Logo.png' width={250} height={67}></img>
+        <img className='logo' src='Logo.png' width={250} height={67}></img>
         <nav>
           <a href='#'>Home</a>
           <a href='#'>About</a>
@@ -15,7 +15,17 @@ function App() {
         </nav>
       </div>
       <div className='hero'>
-        
+        <div className='left'>
+          <h1>Little Lemon</h1>
+          <h2>Chicago</h2>
+          <p className='pfirst'>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+          <a className='reservebutton' href=''>
+            <button>Reserve a Table</button>
+          </a>
+        </div>
+        <div className='right'>
+          <img src='image.png' height={420} width={431}></img>
+        </div>
       </div>
     </div>
   );
