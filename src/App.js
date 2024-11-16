@@ -150,8 +150,8 @@ function App() {
         </div>
         <div className='fifthinside'>
           <div className='rightpics'>
-              <img src='guy1.png' width={300} height={300}></img>
-              <img src='guy2.png' width={300} height={300}></img>
+              <img src='guy1.png' width={200} height={200}></img>
+              <img style={{ paddingLeft: "20px" }} src='guy2.png' width={200} height={200}></img>
           </div>
         </div>
       </div>
