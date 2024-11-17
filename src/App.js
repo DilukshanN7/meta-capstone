@@ -19,7 +19,7 @@ function App() {
       </div>
 
       <Routes>
-        <Route index element={<Hero />} />
+        <Route path='/meta-capstone' element={<Hero />} />
         <Route path="/reservations" element={<Reservations />} />
       </Routes>
 
