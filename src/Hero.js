@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './App.css'
 
 const Hero = () => {
   return (
@@ -15,8 +16,8 @@ const Hero = () => {
             <button>Reserve a Table</button>
           </Link>
         </div>
-        <div className="right">
-          <img src="Image.png" alt="Little Lemon Dish" height={420} width={431} />
+        <div className="rights">
+          <img src="Image.png" className='right' alt="Little Lemon Dish" />
         </div>
       </div>
 
@@ -82,7 +83,7 @@ const Hero = () => {
         <div className="fifthinside">
           <div className="rightpics">
             <img src="guy1.png" alt="Chef" width={200} height={200} />
-            <img style={{ paddingLeft: '20px' }} src="guy2.png" alt="Team Member" width={200} height={200} />
+            <img src="guy2.png" alt="Team Member" width={200} height={200} />
           </div>
         </div>
       </div>

@@ -3,13 +3,187 @@ body {
     overflow-x: hidden;
 }
 
-.header {
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+/* PC */
+@media (min-width: 768px){ 
+    .header {
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .hero {
+        height: 400px;
+        width: 100%;
+        background-color: #495e57;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right {
+        transform: translateY(50px);
+        padding-left: 120px;
+    }
+    .second {
+        width: 100%;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .third {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: hidden;
+    }
+    .top {
+        display: flex;
+    }
+    .top {
+        width: 950px;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(226, 226, 0);
+        line-height: 10px;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .reviewcard {
+        margin-left: 50px;
+    }
+    .fourth {
+        height: 600px;
+        width: 100%;
+        background-color: #495e57;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fifth {
+        height: 550px;
+        box-sizing: border-box;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 991.98px){ 
+    .logo {
+        width: 200px;
+        height: 57px;
+    }
+    .header {
+        height: 30px;
+        padding: 10px;
+        display: flex;
+    }
+    nav {
+        visibility: hidden;
+    }
+    .hero {
+        transform: translateY(4%);
+        height: 730px;
+        width: 90%;
+        background-color: #495e57;
+    }
+    .left {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+    .pfirst {
+        width: 90%;
+        text-align: center;
+    }
+    .right {
+        width: 80%;
+        height: auto;
+    }
+    .rights {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .second {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .third {
+        height: 1400px;
+    }
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(226, 226, 0);
+    }
+    .top {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .fourth {
+        height: 1400px;
+        width: 90%;
+        background-color: #495e57;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reviewcard {
+        margin-bottom: 20px;
+    }
+    .fourthh1 {
+        font-size: x-larger;
+        text-align: center;
+        margin-bottom: -30px;
+    }
+    .fifth {
+        width: 90%;
+        padding-bottom: 40px;
+    }
+    .leftext {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2 {
+        line-height: 50%;
+    }
+    .leftext > h1 {
+        line-height: 0%;
+        padding-top: 60px;
+    }
+    .rightpics {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .logo {
@@ -23,28 +197,8 @@ a {
     text-decoration: none;
 }
 
-.hero {
-    height: 400px;
-    width: 100%;
-    background-color: #495e57;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .left {
     color: white;
-}
-
-.right {
-    transform: translateY(50px);
-    padding-left: 120px;
-}
-
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(226, 226, 0);
-    line-height: 10px;
 }
 
 p {
@@ -70,35 +224,8 @@ button:hover {
     cursor: pointer;
 }
 
-.top {
-    display: flex;
-}
-
 .h12 {
     color: black;
-}
-
-.second {
-    width: 100%;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.top {
-    width: 950px;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 50px;
-}
-
-.third {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    overflow: hidden;
 }
 
 .card {
@@ -123,15 +250,7 @@ button:hover {
     font-weight: bold;
 }
 
-.fourth {
-    height: 800px;
-    width: 100%;
-    background-color: #495e57;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .reviewcard {
     height: 250px;
@@ -140,7 +259,6 @@ button:hover {
     border-radius: 10px;
     padding: 20px;
     box-sizing: border-box;
-    margin-left: 50px;
 }
 
 .fourthh1 {
@@ -148,10 +266,6 @@ button:hover {
     padding-bottom: 80px;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 
 .iconperson {
     border-radius: 200px;
@@ -172,16 +286,6 @@ div > h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.fifth {
-    height: 550px;
-    box-sizing: border-box;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 18%;
-    padding-right: 18%;
 }
 
 .realfooter {
