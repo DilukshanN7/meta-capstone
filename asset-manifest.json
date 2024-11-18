@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/meta-capstone/static/css/main.c5ca7e14.css",
-    "main.js": "/meta-capstone/static/js/main.c79a4c1a.js",
-    "static/js/453.6cf33fc8.chunk.js": "/meta-capstone/static/js/453.6cf33fc8.chunk.js",
-    "index.html": "/meta-capstone/index.html",
-    "main.c5ca7e14.css.map": "/meta-capstone/static/css/main.c5ca7e14.css.map",
-    "main.c79a4c1a.js.map": "/meta-capstone/static/js/main.c79a4c1a.js.map",
-    "453.6cf33fc8.chunk.js.map": "/meta-capstone/static/js/453.6cf33fc8.chunk.js.map"
+    "main.css": "./static/css/main.0b621efd.css",
+    "main.js": "./static/js/main.ea23b6a8.js",
+    "static/js/453.6cf33fc8.chunk.js": "./static/js/453.6cf33fc8.chunk.js",
+    "index.html": "./index.html",
+    "main.0b621efd.css.map": "./static/css/main.0b621efd.css.map",
+    "main.ea23b6a8.js.map": "./static/js/main.ea23b6a8.js.map",
+    "453.6cf33fc8.chunk.js.map": "./static/js/453.6cf33fc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5ca7e14.css",
-    "static/js/main.c79a4c1a.js"
+    "static/css/main.0b621efd.css",
+    "static/js/main.ea23b6a8.js"
   ]
 }
