@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <img className="logo" src="Logo.png" alt="Restaurant Logo" width={250} height={67} />
+        <img className="logo" src="Logo.png" alt="Restaurant Logo" width={230} height={67} />
         <nav>
           <Link to="/">Home</Link>
           <a href="#about">About</a>

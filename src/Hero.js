@@ -5,6 +5,7 @@ import './App.css'
 const Hero = () => {
   return (
     <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"></meta>
       <div className="hero">
         <div className="left">
           <h1>Little Lemon</h1>
@@ -34,7 +35,7 @@ const Hero = () => {
             <p className="title">Greek Salad</p>
             <p className="sub">
               The famous Greek salad of crispy lettuce, peppers, olives, and our Chicago-style feta cheese, garnished with
-              crunchy garlic and rosemary croutons.
+              crunchy.
             </p>
             <p className="footer">Order Delivery</p>
           </div>
@@ -43,7 +44,7 @@ const Hero = () => {
             <p className="title">Lemon Dessert</p>
             <p className="sub">
               This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic
-              as can be imagined.
+              as.
             </p>
             <p className="footer">Order Delivery</p>
           </div>
